@@ -46,3 +46,48 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* ***********************
+        Main Styles
+************************ */
+
+body{
+    background-color: mistyrose;
+}
+
+h1{
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 36px;
+    font-weight: 150;
+    padding: 10px;
+    color: lightslategray;
+    font-variation-settings: "wdth" 100;
+}
+
+/* for any other font property beyond bold and italic use font variation-settings */
+
+/* MINE IS NOT ANIMATING */
+
+h1:hover{
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 900;
+    font-variation-settings: "wdth" 125;
+    color: slategray;
+}
+
+h3{
+    font-family: "Playwrite AU SA Guides", cursive;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+}
+p{
+     font-family: "Playfair", serif;
+     font-variation-settings: "wdth" 125;
+     margin-top: 5px;
+}
+
+iframe{
+    margin: 10px;
+    padding: 10px;
+}
