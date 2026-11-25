@@ -62,6 +62,7 @@ h1{
     padding: 10px;
     color: lightslategray;
     font-variation-settings: "wdth" 100;
+    transition: all 3s;
 }
 
 /* for any other font property beyond bold and italic use font variation-settings */
@@ -90,4 +91,10 @@ p{
 iframe{
     margin: 10px;
     padding: 10px;
+}
+
+/* you have to  set the both the width and heught of an iframe */
+.maps{
+    width:50vw;
+    height: 35vw;
 }
